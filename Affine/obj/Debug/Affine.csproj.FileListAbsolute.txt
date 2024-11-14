@@ -1,0 +1,39 @@
+d:\Users\stety\Desktop\Компьютерная графика лабы\Lab 6\Affine\Affine\obj\Debug\Affine.csprojAssemblyReference.cache
+d:\Users\stety\Desktop\Компьютерная графика лабы\Lab 6\Affine\Affine\obj\Debug\Affine.Form1.resources
+d:\Users\stety\Desktop\Компьютерная графика лабы\Lab 6\Affine\Affine\obj\Debug\Affine.Properties.Resources.resources
+d:\Users\stety\Desktop\Компьютерная графика лабы\Lab 6\Affine\Affine\obj\Debug\Affine.csproj.GenerateResource.cache
+d:\Users\stety\Desktop\Компьютерная графика лабы\Lab 6\Affine\Affine\bin\Debug\Affine.exe.config
+d:\Users\stety\Desktop\Компьютерная графика лабы\Lab 6\Affine\Affine\bin\Debug\Affine.exe
+d:\Users\stety\Desktop\Компьютерная графика лабы\Lab 6\Affine\Affine\bin\Debug\Affine.pdb
+d:\Users\stety\Desktop\Компьютерная графика лабы\Lab 6\Affine\Affine\obj\Debug\Affine.exe
+d:\Users\stety\Desktop\Компьютерная графика лабы\Lab 6\Affine\Affine\obj\Debug\Affine.pdb
+C:\Users\chuev\Desktop\Comp-Graphics-master\Comp-Graphics-master\Lab 6\Affine\Affine\bin\Debug\Affine.exe.config
+C:\Users\chuev\Desktop\Comp-Graphics-master\Comp-Graphics-master\Lab 6\Affine\Affine\bin\Debug\Affine.exe
+C:\Users\chuev\Desktop\Comp-Graphics-master\Comp-Graphics-master\Lab 6\Affine\Affine\bin\Debug\Affine.pdb
+C:\Users\chuev\Desktop\Comp-Graphics-master\Comp-Graphics-master\Lab 6\Affine\Affine\obj\Debug\Affine.csproj.AssemblyReference.cache
+C:\Users\chuev\Desktop\Comp-Graphics-master\Comp-Graphics-master\Lab 6\Affine\Affine\obj\Debug\Affine.Form1.resources
+C:\Users\chuev\Desktop\Comp-Graphics-master\Comp-Graphics-master\Lab 6\Affine\Affine\obj\Debug\Affine.Properties.Resources.resources
+C:\Users\chuev\Desktop\Comp-Graphics-master\Comp-Graphics-master\Lab 6\Affine\Affine\obj\Debug\Affine.csproj.GenerateResource.cache
+C:\Users\chuev\Desktop\Comp-Graphics-master\Comp-Graphics-master\Lab 6\Affine\Affine\obj\Debug\Affine.csproj.CoreCompileInputs.cache
+C:\Users\chuev\Desktop\Comp-Graphics-master\Comp-Graphics-master\Lab 6\Affine\Affine\obj\Debug\Affine.exe
+C:\Users\chuev\Desktop\Comp-Graphics-master\Comp-Graphics-master\Lab 6\Affine\Affine\obj\Debug\Affine.pdb
+C:\Users\ASUS\Downloads\Telegram Desktop\Lab 6\Lab 6\Affine\Affine\bin\Debug\Affine.exe.config
+C:\Users\ASUS\Downloads\Telegram Desktop\Lab 6\Lab 6\Affine\Affine\bin\Debug\Affine.exe
+C:\Users\ASUS\Downloads\Telegram Desktop\Lab 6\Lab 6\Affine\Affine\bin\Debug\Affine.pdb
+C:\Users\ASUS\Downloads\Telegram Desktop\Lab 6\Lab 6\Affine\Affine\obj\Debug\Affine.csproj.AssemblyReference.cache
+C:\Users\ASUS\Downloads\Telegram Desktop\Lab 6\Lab 6\Affine\Affine\obj\Debug\Affine.Form1.resources
+C:\Users\ASUS\Downloads\Telegram Desktop\Lab 6\Lab 6\Affine\Affine\obj\Debug\Affine.Properties.Resources.resources
+C:\Users\ASUS\Downloads\Telegram Desktop\Lab 6\Lab 6\Affine\Affine\obj\Debug\Affine.csproj.GenerateResource.cache
+C:\Users\ASUS\Downloads\Telegram Desktop\Lab 6\Lab 6\Affine\Affine\obj\Debug\Affine.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Downloads\Telegram Desktop\Lab 6\Lab 6\Affine\Affine\obj\Debug\Affine.exe
+C:\Users\ASUS\Downloads\Telegram Desktop\Lab 6\Lab 6\Affine\Affine\obj\Debug\Affine.pdb
+C:\Users\Арина\Desktop\Lab 6\Lab 6\Lab 6\Affine\Affine\bin\Debug\Affine.exe.config
+C:\Users\Арина\Desktop\Lab 6\Lab 6\Lab 6\Affine\Affine\bin\Debug\Affine.exe
+C:\Users\Арина\Desktop\Lab 6\Lab 6\Lab 6\Affine\Affine\bin\Debug\Affine.pdb
+C:\Users\Арина\Desktop\Lab 6\Lab 6\Lab 6\Affine\Affine\obj\Debug\Affine.csproj.AssemblyReference.cache
+C:\Users\Арина\Desktop\Lab 6\Lab 6\Lab 6\Affine\Affine\obj\Debug\Affine.Form1.resources
+C:\Users\Арина\Desktop\Lab 6\Lab 6\Lab 6\Affine\Affine\obj\Debug\Affine.Properties.Resources.resources
+C:\Users\Арина\Desktop\Lab 6\Lab 6\Lab 6\Affine\Affine\obj\Debug\Affine.csproj.GenerateResource.cache
+C:\Users\Арина\Desktop\Lab 6\Lab 6\Lab 6\Affine\Affine\obj\Debug\Affine.csproj.CoreCompileInputs.cache
+C:\Users\Арина\Desktop\Lab 6\Lab 6\Lab 6\Affine\Affine\obj\Debug\Affine.exe
+C:\Users\Арина\Desktop\Lab 6\Lab 6\Lab 6\Affine\Affine\obj\Debug\Affine.pdb

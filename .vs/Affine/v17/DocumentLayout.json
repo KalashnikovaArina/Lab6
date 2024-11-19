@@ -1,30 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\Lab 6\\Lab 6\\Lab 6\\Affine\\",
+  "WorkspaceRootPath": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\graph\\Lab6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1AFA0344-C03B-408B-ABD2-F95F2731DF9C}|Affine\\Lab6.csproj|c:\\users\\\u0430\u0440\u0438\u043D\u0430\\desktop\\lab 6\\lab 6\\lab 6\\affine\\affine\\xyzpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1AFA0344-C03B-408B-ABD2-F95F2731DF9C}|Affine\\Lab6.csproj|c:\\users\\\u0430\u0440\u0438\u043D\u0430\\desktop\\graph\\lab6\\affine\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA0344-C03B-408B-ABD2-F95F2731DF9C}|Affine\\Lab6.csproj|solutionrelative:affine\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA0344-C03B-408B-ABD2-F95F2731DF9C}|Affine\\Lab6.csproj|c:\\users\\\u0430\u0440\u0438\u043D\u0430\\desktop\\graph\\lab6\\affine\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1AFA0344-C03B-408B-ABD2-F95F2731DF9C}|Affine\\Lab6.csproj|solutionrelative:affine\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA0344-C03B-408B-ABD2-F95F2731DF9C}|Affine\\Lab6.csproj|c:\\users\\\u0430\u0440\u0438\u043D\u0430\\desktop\\graph\\lab6\\affine\\xyzpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AFA0344-C03B-408B-ABD2-F95F2731DF9C}|Affine\\Lab6.csproj|solutionrelative:affine\\xyzpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AFA0344-C03B-408B-ABD2-F95F2731DF9C}|Affine\\Affine.csproj|C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\Lab 6\\Lab 6\\Lab 6\\Affine\\affine\\line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AFA0344-C03B-408B-ABD2-F95F2731DF9C}|Affine\\Affine.csproj|solutionrelative:affine\\line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AFA0344-C03B-408B-ABD2-F95F2731DF9C}|Affine\\Lab6.csproj|c:\\users\\\u0430\u0440\u0438\u043D\u0430\\desktop\\graph\\lab6\\affine\\polyhedron.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA0344-C03B-408B-ABD2-F95F2731DF9C}|Affine\\Lab6.csproj|solutionrelative:affine\\polyhedron.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AFA0344-C03B-408B-ABD2-F95F2731DF9C}|Affine\\Affine.csproj|C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\Lab 6\\Lab 6\\Lab 6\\Affine\\affine\\polyhedron.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1AFA0344-C03B-408B-ABD2-F95F2731DF9C}|Affine\\Affine.csproj|C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\graph\\Lab6\\affine\\polyhedron.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AFA0344-C03B-408B-ABD2-F95F2731DF9C}|Affine\\Affine.csproj|solutionrelative:affine\\polyhedron.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AFA0344-C03B-408B-ABD2-F95F2731DF9C}|Affine\\Affine.csproj|C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\Lab 6\\Lab 6\\Lab 6\\Affine\\affine\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1AFA0344-C03B-408B-ABD2-F95F2731DF9C}|Affine\\Affine.csproj|solutionrelative:affine\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1AFA0344-C03B-408B-ABD2-F95F2731DF9C}|Affine\\Lab6.csproj|c:\\users\\\u0430\u0440\u0438\u043D\u0430\\desktop\\graph\\lab6\\affine\\verge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA0344-C03B-408B-ABD2-F95F2731DF9C}|Affine\\Lab6.csproj|solutionrelative:affine\\verge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AFA0344-C03B-408B-ABD2-F95F2731DF9C}|Affine\\Affine.csproj|C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\Lab 6\\Lab 6\\Lab 6\\Affine\\affine\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AFA0344-C03B-408B-ABD2-F95F2731DF9C}|Affine\\Affine.csproj|solutionrelative:affine\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AFA0344-C03B-408B-ABD2-F95F2731DF9C}|Affine\\Affine.csproj|C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\Lab 6\\Lab 6\\Lab 6\\Affine\\affine\\verge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1AFA0344-C03B-408B-ABD2-F95F2731DF9C}|Affine\\Affine.csproj|C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\graph\\Lab6\\affine\\verge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AFA0344-C03B-408B-ABD2-F95F2731DF9C}|Affine\\Affine.csproj|solutionrelative:affine\\verge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA0344-C03B-408B-ABD2-F95F2731DF9C}|Affine\\Lab6.csproj|c:\\users\\\u0430\u0440\u0438\u043D\u0430\\desktop\\graph\\lab6\\affine\\line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA0344-C03B-408B-ABD2-F95F2731DF9C}|Affine\\Lab6.csproj|solutionrelative:affine\\line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFA0344-C03B-408B-ABD2-F95F2731DF9C}|Affine\\Affine.csproj|C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\graph\\Lab6\\affine\\line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFA0344-C03B-408B-ABD2-F95F2731DF9C}|Affine\\Affine.csproj|solutionrelative:affine\\line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,27 +46,79 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\Lab 6\\Lab 6\\Lab 6\\Affine\\Affine\\Form1.cs",
-              "RelativeDocumentMoniker": "Affine\\Form1.cs",
-              "ToolTip": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\Lab 6\\Lab 6\\Lab 6\\Affine\\Affine\\Form1.cs",
-              "RelativeToolTip": "Affine\\Form1.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAIwFwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Line.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\graph\\Lab6\\Affine\\Line.cs",
+              "RelativeDocumentMoniker": "Affine\\Line.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\graph\\Lab6\\Affine\\Line.cs",
+              "RelativeToolTip": "Affine\\Line.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T20:39:19.521Z"
+              "WhenOpened": "2024-11-19T15:40:38.361Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "Verge.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\graph\\Lab6\\Affine\\Verge.cs",
+              "RelativeDocumentMoniker": "Affine\\Verge.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\graph\\Lab6\\Affine\\Verge.cs",
+              "RelativeToolTip": "Affine\\Verge.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAowJ8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T15:09:25.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Polyhedron.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\Lab 6\\Lab 6\\Lab 6\\Affine\\Affine\\Polyhedron.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\graph\\Lab6\\Affine\\Polyhedron.cs",
               "RelativeDocumentMoniker": "Affine\\Polyhedron.cs",
-              "ToolTip": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\Lab 6\\Lab 6\\Lab 6\\Affine\\Affine\\Polyhedron.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\graph\\Lab6\\Affine\\Polyhedron.cs",
+              "RelativeToolTip": "Affine\\Polyhedron.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAmwDMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T15:09:06.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\graph\\Lab6\\Affine\\Form1.cs",
+              "RelativeDocumentMoniker": "Affine\\Form1.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\graph\\Lab6\\Affine\\Form1.cs",
+              "RelativeToolTip": "Affine\\Form1.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAkwNMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T15:03:01.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\graph\\Lab6\\Affine\\Form1.cs",
+              "RelativeDocumentMoniker": "Affine\\Form1.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\graph\\Lab6\\Affine\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Affine\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T15:03:05.059Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Polyhedron.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\graph\\Lab6\\Affine\\Polyhedron.cs",
+              "RelativeDocumentMoniker": "Affine\\Polyhedron.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\graph\\Lab6\\Affine\\Polyhedron.cs",
               "RelativeToolTip": "Affine\\Polyhedron.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAcwDMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -62,11 +126,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Verge.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\Lab 6\\Lab 6\\Lab 6\\Affine\\Affine\\Verge.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\graph\\Lab6\\Affine\\Verge.cs",
               "RelativeDocumentMoniker": "Affine\\Verge.cs",
-              "ToolTip": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\Lab 6\\Lab 6\\Lab 6\\Affine\\Affine\\Verge.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\graph\\Lab6\\Affine\\Verge.cs",
               "RelativeToolTip": "Affine\\Verge.cs",
               "ViewState": "AgIAAF4AAAAAAAAAAAAAAHAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -74,11 +138,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Line.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\Lab 6\\Lab 6\\Lab 6\\Affine\\Affine\\Line.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\graph\\Lab6\\Affine\\Line.cs",
               "RelativeDocumentMoniker": "Affine\\Line.cs",
-              "ToolTip": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\Lab 6\\Lab 6\\Lab 6\\Affine\\Affine\\Line.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\graph\\Lab6\\Affine\\Line.cs",
               "RelativeToolTip": "Affine\\Line.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAwwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -86,27 +150,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "XYZPoint.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\Lab 6\\Lab 6\\Lab 6\\Affine\\Affine\\XYZPoint.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\graph\\Lab6\\Affine\\XYZPoint.cs",
               "RelativeDocumentMoniker": "Affine\\XYZPoint.cs",
-              "ToolTip": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\Lab 6\\Lab 6\\Lab 6\\Affine\\Affine\\XYZPoint.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\graph\\Lab6\\Affine\\XYZPoint.cs",
               "RelativeToolTip": "Affine\\XYZPoint.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAkwE8AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAL4AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T20:09:46.513Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\Lab 6\\Lab 6\\Lab 6\\Affine\\Affine\\Form1.cs",
-              "RelativeDocumentMoniker": "Affine\\Form1.cs",
-              "ToolTip": "C:\\Users\\\u0410\u0440\u0438\u043D\u0430\\Desktop\\Lab 6\\Lab 6\\Lab 6\\Affine\\Affine\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "Affine\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T20:03:29.429Z"
             }
           ]
         }

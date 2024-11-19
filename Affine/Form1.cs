@@ -118,6 +118,14 @@ namespace Lab6
                     figure.make_dodecahedron();
                     figure.Draw(g, projection);
                     break;
+                case 3:
+                    //Tetrahedron
+                    g.Clear(pictureBox1.BackColor);
+                    figure = new Polyhedron();
+                    figure.make_tetrahedron();
+                    figure.Draw(g, projection);
+                    DrawAx(g, projection);
+                    break;
                 default:
                     break;
             }
@@ -128,7 +136,7 @@ namespace Lab6
         private void comboBox4_SelectedIndexChanged(object sender, EventArgs e)
         {
             rotateLineMode = (Axis)comboBox4.SelectedIndex;
-            switch (comboBox4.SelectedIndex)
+            switch (comboBox4.SelectedIndex) 
             {
                 case 0:
                     checkNumeric(false);
@@ -140,7 +148,7 @@ namespace Lab6
                     checkNumeric(false);
                     break;
                 case 3:
-                    checkNumeric(true);
+                    checkNumeric(true); //разрешить вводить значения произвольной прямой
                     break;
                 default:
                     break;
@@ -157,7 +165,7 @@ namespace Lab6
             }
         }
 
-        private void RotateAroundLine()
+        private void RotateAroundLine() //вращение вокруг произвольной прямой
         {
             Line rotateLine = new Line(
                                 new XYZPoint(
@@ -170,12 +178,12 @@ namespace Lab6
                                     (float)numericUpDown13.Value));
 
             float Ax = rotateLine.First.X, Ay = rotateLine.First.Y, Az = rotateLine.First.Z;
-            figure.translate(-Ax, -Ay, -Az);
+            //figure.translate(-Ax, -Ay, -Az);
 
             double angle = (double)numericUpDown16.Value;
             figure.rotate(angle, rotateLineMode, rotateLine);
 
-            figure.translate(Ax, Ay, Az);
+            //figure.translate(Ax, Ay, Az);
 
             g.Clear(pictureBox1.BackColor);
             figure.Draw(g, projection);

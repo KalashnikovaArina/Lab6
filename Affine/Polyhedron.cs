@@ -42,6 +42,7 @@ namespace Lab6
                 
         public void Draw(Graphics g, Projection pr = 0, Pen pen = null)
         {
+            //коорд оси
             List<Line> p = new List<Line>();
             XYZPoint a = new XYZPoint(0, 0, 0);
             XYZPoint b = new XYZPoint(100, 0, 0);
@@ -51,15 +52,9 @@ namespace Lab6
             XYZPoint d = new XYZPoint(0, 0, 100);
             d.Draw(g, pr);
 
-
-            //p.Add(a);
-            //p.Add(b);
-            //p.Add(c);
-            //p.Add(d);
-
             p.Add(new Line(a, b));
             p.Add(new Line(a, c));
-            p.Add(new Line(a, d));
+            p.Add(new Line(a, d)); 
 
 
             foreach (Line x in p)
@@ -67,6 +62,7 @@ namespace Lab6
                 x.Draw(g, pr);
             }
 
+            //многоугольник
             int count = -1;
             foreach (Verge f in Verges)
             {
@@ -190,6 +186,24 @@ namespace Lab6
             };
             Verge f5 = new Verge(l5);
             Verges.Add(f5);
+
+            find_center();
+        }
+        public void make_tetrahedron(float size = 50)
+        {
+            // Задаём вершины тетраэдра
+            XYZPoint p1 = new XYZPoint(0, size, 0);                      // Верхняя вершина
+            XYZPoint p2 = new XYZPoint(-size, -size / 2, -size * (float)Math.Sqrt(3) / 2); // Левая вершина
+            XYZPoint p3 = new XYZPoint(size, -size / 2, -size * (float)Math.Sqrt(3) / 2);  // Правая вершина
+            XYZPoint p4 = new XYZPoint(0, -size / 2, size * (float)Math.Sqrt(3));          // Нижняя вершина
+
+            Verges = new List<Verge>
+            {
+            new Verge(new List<XYZPoint> { p1, p2, p3 }), // Верхняя грань
+            new Verge(new List<XYZPoint> { p1, p3, p4 }), // Правая грань
+            new Verge(new List<XYZPoint> { p1, p4, p2 }), // Левая грань
+            new Verge(new List<XYZPoint> { p2, p4, p3 })  // Нижняя грань
+            };
 
             find_center();
         }

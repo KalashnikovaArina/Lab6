@@ -40,7 +40,7 @@ namespace Lab6
         }
 
         /*----------------------------- Projections -----------------------------*/
-
+        //преобразование в перспективную 
         public PointF make_perspective(float k = 1000)
         {
             if (Math.Abs(Z - k) < 1e-10)
@@ -56,8 +56,8 @@ namespace Lab6
 
             return new PointF(c[0] / c[3], c[1] / c[3]);
         }
-
-        public PointF make_axonometric()
+        //преобразование в изометрическую
+        public PointF make_axonometric() 
         {
             double r_phi = Math.Asin(Math.Tan(Math.PI * 30 / 180));
             double r_psi = Math.PI * 45 / 180;

@@ -8,3 +8,13 @@ C:\Users\Арина\Desktop\Lab 6\Lab 6\Lab 6\Affine\Affine\obj\Debug\Lab6.cspro
 C:\Users\Арина\Desktop\Lab 6\Lab 6\Lab 6\Affine\Affine\obj\Debug\Lab6.csproj.CoreCompileInputs.cache
 C:\Users\Арина\Desktop\Lab 6\Lab 6\Lab 6\Affine\Affine\obj\Debug\Affine.exe
 C:\Users\Арина\Desktop\Lab 6\Lab 6\Lab 6\Affine\Affine\obj\Debug\Affine.pdb
+C:\Users\Арина\Desktop\graph\Lab6\Affine\bin\Debug\Affine.exe.config
+C:\Users\Арина\Desktop\graph\Lab6\Affine\bin\Debug\Affine.exe
+C:\Users\Арина\Desktop\graph\Lab6\Affine\bin\Debug\Affine.pdb
+C:\Users\Арина\Desktop\graph\Lab6\Affine\obj\Debug\Lab6.csproj.AssemblyReference.cache
+C:\Users\Арина\Desktop\graph\Lab6\Affine\obj\Debug\Lab6.Form1.resources
+C:\Users\Арина\Desktop\graph\Lab6\Affine\obj\Debug\Affine.Properties.Resources.resources
+C:\Users\Арина\Desktop\graph\Lab6\Affine\obj\Debug\Lab6.csproj.GenerateResource.cache
+C:\Users\Арина\Desktop\graph\Lab6\Affine\obj\Debug\Lab6.csproj.CoreCompileInputs.cache
+C:\Users\Арина\Desktop\graph\Lab6\Affine\obj\Debug\Affine.exe
+C:\Users\Арина\Desktop\graph\Lab6\Affine\obj\Debug\Affine.pdb

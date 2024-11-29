@@ -191,5 +191,27 @@ namespace Lab6
             Y = c[1];
             Z = c[2];
         }
+        public override bool Equals(object obj)
+        {
+            if (obj is XYZPoint other)
+            {
+                return Math.Abs(X - other.X) < 1e-6 &&
+                       Math.Abs(Y - other.Y) < 1e-6 &&
+                       Math.Abs(Z - other.Z) < 1e-6;
+            }
+            return false;
+        }
+
+        public override int GetHashCode()
+        {
+            unchecked 
+            {
+                int hash = 17;
+                hash = hash * 23 + X.GetHashCode();
+                hash = hash * 23 + Y.GetHashCode();
+                hash = hash * 23 + Z.GetHashCode();
+                return hash;
+            }
+        }
     }
 }

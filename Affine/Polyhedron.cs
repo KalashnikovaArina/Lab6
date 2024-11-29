@@ -9,6 +9,8 @@ namespace Lab6
     {
         public List<Verge> Verges { get; set; } = null;
         public XYZPoint Center { get; set; } = new XYZPoint(0, 0, 0);
+
+        public string cur_fig = "";
         public Polyhedron(List<Verge> fs = null)
         {
             if (fs != null)
@@ -186,7 +188,7 @@ namespace Lab6
             };
             Verge f5 = new Verge(l5);
             Verges.Add(f5);
-
+            cur_fig = "Hexahedron";
             find_center();
         }
         public void make_tetrahedron(float size = 50)
@@ -204,7 +206,7 @@ namespace Lab6
             new Verge(new List<XYZPoint> { p1, p4, p2 }), // Левая грань
             new Verge(new List<XYZPoint> { p2, p4, p3 })  // Нижняя грань
             };
-
+            cur_fig = "Tetrahedron";
             find_center();
         }
 
@@ -285,7 +287,7 @@ namespace Lab6
                     })
                     );
             }
-
+            cur_fig = "Icosahedron";
             find_center();
         }
 
@@ -371,8 +373,40 @@ namespace Lab6
                 new XYZPoint(pts[18]),
                 new XYZPoint(pts[19])
             }));
-
+            cur_fig = "Dodecahedron";
             find_center();
+        }
+        public List<XYZPoint> GetUniquePoints()
+        {
+            HashSet<XYZPoint> uniquePoints = new HashSet<XYZPoint>(new XYZPointComparer());
+
+            foreach (var verge in Verges)
+            {
+                foreach (var point in verge.Points)
+                {
+                    uniquePoints.Add(point);
+                }
+            }
+
+            return uniquePoints.ToList();
+        }
+
+        // Компаратор для сравнения XYZPoint
+        public class XYZPointComparer : IEqualityComparer<XYZPoint>
+        {
+            public bool Equals(XYZPoint p1, XYZPoint p2)
+            {
+                if (p1 == null || p2 == null) return false;
+                return Math.Abs(p1.X - p2.X) < 1e-6 &&
+                       Math.Abs(p1.Y - p2.Y) < 1e-6 &&
+                       Math.Abs(p1.Z - p2.Z) < 1e-6;
+            }
+
+            public int GetHashCode(XYZPoint point)
+            {
+                if (point == null) return 0;
+                return point.X.GetHashCode() ^ point.Y.GetHashCode() ^ point.Z.GetHashCode();
+            }
         }
     }
 }

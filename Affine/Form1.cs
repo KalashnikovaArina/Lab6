@@ -222,5 +222,114 @@ namespace Lab6
 
         //ROTATE AROUND LINE
         private void button4_Click(object sender, EventArgs e) => RotateAroundLine();
+
+        /*----------------------------- save and load -----------------------------*/
+        private void button5_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog saveDialog = new SaveFileDialog();
+            saveDialog.Filter = "Object Files(*.obj)| *.obj | Text files(*.txt) | *.txt | All files(*.*) | *.* ";
+            if (saveDialog.ShowDialog() == DialogResult.OK)
+            {
+                try
+                {
+                    string info = "";
+                    List<XYZPoint> points = figure.GetUniquePoints();
+                    foreach (XYZPoint point in points)
+                    {
+                        info += "v ";
+                        info += point.X + " ";
+                        info += point.Y + " ";
+                        info += point.Z;
+                        info += "\r\n";
+                    }
+
+                    foreach (Verge f in figure.Verges)
+                    {
+                        info += "f ";
+                        foreach (var point in f.Points)
+                        {
+                            var index = points.IndexOf(point) + 1;
+                            info += index + "/" + index + "/" + index + " ";
+                        }
+                        info += "\r\n";
+                    }
+
+                    System.IO.File.WriteAllText(saveDialog.FileName, info);
+                }
+                catch
+                {
+                    DialogResult rezult = MessageBox.Show("Невозможно сохранить файл",
+                    "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog loadDialog = new OpenFileDialog();
+            loadDialog.Filter = "Object Files(*.obj)|*.obj|Text files (*.txt)|*.txt|All files (*.*)|*.*";
+            if (loadDialog.ShowDialog() == DialogResult.OK)
+            {
+                try
+                {
+                    List<Verge> verges = new List<Verge>();
+                    List<XYZPoint> points = new List<XYZPoint>();
+                    string str = System.IO.File.ReadAllText(loadDialog.FileName).Replace("\r\n", "!");
+                    string[] info = str.Split('!');
+
+                    List<Verge> Verges = new List<Verge>();
+
+                    foreach (var verge in info)
+                    {
+                        if (string.IsNullOrWhiteSpace(verge)) continue; // Пропуск пустых строк
+
+                        string[] pIndex = verge.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                        if (pIndex.Length == 0) continue;
+
+                        if (pIndex[0] == "v") // Обработка точки
+                        {
+                            if (pIndex.Length < 4) continue; // недостаточно координат
+                            if (float.TryParse(pIndex[1], out float x) &&
+                                float.TryParse(pIndex[2], out float y) &&
+                                float.TryParse(pIndex[3], out float z))
+                            {
+                                points.Add(new XYZPoint(x, y, z));
+                            }
+                        }
+                        else if (pIndex[0] == "f") // Обработка грани
+                        {
+                            List<XYZPoint> pts = new List<XYZPoint>();
+                            for (int i = 1; i < pIndex.Length; i++) // пропускаем f
+                            {
+                                string[] nums = pIndex[i].Split('/');
+                                if (nums.Length > 0 && int.TryParse(nums[0], out int ind1))
+                                {
+                                    if (ind1 > 0 && ind1 <= points.Count)
+                                    {
+                                        pts.Add(points[ind1 - 1]); // Индексы начинаются с 1
+                                    }
+                                }
+                            }
+                            if (pts.Count > 0)
+                            {
+                                Verges.Add(new Verge(pts));
+                            }
+                        }
+                    }
+
+                    // Создание и отрисовка фигуры
+                    g.Clear(pictureBox1.BackColor);
+                    figure = new Polyhedron(Verges);
+                    figure.Draw(g, projection);
+                }
+                catch
+                {
+                    DialogResult rezult = MessageBox.Show("Невозможно отобразить файл",
+                    "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+        /*----------------------------------------------------------*/
     }
 }
